@@ -6,8 +6,8 @@
 #############
 # Site basics
 #############
-title: "YOUR NAME – CV"         # Shows up in the browser tab
-description: "Backend & AI Engineer | Golang • Python • AWS"
+title: "PIOTR SZEFER – CV"         # Shows up in the browser tab
+description: "Backend & AI Engineer | LLM • Research • Data Analysis • Python • AWS • Azure"
 
 # If you own a custom domain, set it here; otherwise leave empty
 url: "https://YOURDOMAIN.com"   # Must include https://
@@ -27,10 +27,10 @@ plugins: [jekyll-remote-theme]              # required once for remote_theme
 # Author
 ##########
 author:
-  name:  "YOUR NAME"
-  email: "you@example.com"
-  linkedin_username: "your-linkedin-handle"
-  github_username:   "your-github-handle"
+  name:  "Piotr Szefer"
+  email: "szefer85@gmail.com"
+  linkedin_username: "www.linkedin.com/in/piotr-szefer"
+  github_username:   "https://github.com/szefer-piotr"
   # Add more keys (twitter_username, mastodon) as the theme supports
 
 ########################
