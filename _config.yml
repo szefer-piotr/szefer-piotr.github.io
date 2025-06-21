@@ -83,3 +83,5 @@ exclude:
 # Custom variables (theme-specific keys)
 ########################################
 cv_download: "/CV.pdf"           # used by many CV themes for a button
+
+yaml<br>theme: jekyll-theme-minimal # or jekyll-theme-cayman, etc.<br>
