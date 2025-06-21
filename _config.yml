@@ -1,1 +1,85 @@
-theme: minima
+################################################################
+#  _config.yml – Personal CV on GitHub Pages
+#  Save this file at the repo root and push → GitHub rebuilds
+################################################################
+
+#############
+# Site basics
+#############
+title: "YOUR NAME – CV"         # Shows up in the browser tab
+description: "Backend & AI Engineer | Golang • Python • AWS"
+
+# If you own a custom domain, set it here; otherwise leave empty
+url: "https://YOURDOMAIN.com"   # Must include https://
+baseurl: ""                     # Keep "" when deploying to <user>.github.io
+
+################
+# Theme settings
+################
+# --- OPTION 1: built-in supported themes ----------
+# theme: jekyll-theme-minimal          # uncomment ONE of these two blocks
+#
+# --- OPTION 2: any theme from a repo (recommended) -
+remote_theme: pages-themes/minimal@v0.2.0   # owner/repo[@tag]
+plugins: [jekyll-remote-theme]              # required once for remote_theme
+
+##########
+# Author
+##########
+author:
+  name:  "YOUR NAME"
+  email: "you@example.com"
+  linkedin_username: "your-linkedin-handle"
+  github_username:   "your-github-handle"
+  # Add more keys (twitter_username, mastodon) as the theme supports
+
+########################
+# Build & formatting opts
+########################
+markdown: kramdown               # default; works fine for CVs
+highlighter: rouge               # syntax highlighting for code blocks
+permalink: pretty                # /my-page/ instead of /my-page.html
+
+#################
+# Optional extras
+#################
+google_analytics: "G-XXXXXXX"    # remove or replace
+logo: "/assets/img/avatar.jpg"   # used by some themes in nav/header
+favicon: "/assets/img/favicon.png"
+
+# Social sharing image (Twitter / Open Graph card)
+image: "/assets/img/preview.png"
+
+############################
+# Collections (optional blog)
+############################
+# Uncomment if you want a blog or portfolio entries
+# collections:
+#   posts:
+#     output: true
+#     permalink: /:categories/:title/
+
+############################
+# Defaults (front-matter DRY)
+############################
+defaults:
+  - scope:
+      path: ""          # all files
+      type: "posts"
+    values:
+      layout: "post"
+      author: "YOUR NAME"
+
+#########################
+# Exclude stuff from build
+#########################
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - README.md
+
+########################################
+# Custom variables (theme-specific keys)
+########################################
+cv_download: "/CV.pdf"           # used by many CV themes for a button
