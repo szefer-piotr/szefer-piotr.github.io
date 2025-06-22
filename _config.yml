@@ -50,14 +50,13 @@ favicon: "/assets/img/favicon.png"
 # Social sharing image (Twitter / Open Graph card)
 image: "/assets/img/preview.png"
 
-############################
-# Collections (optional blog)
-############################
-# Uncomment if you want a blog or portfolio entries
-# collections:
-#   posts:
-#     output: true
-#     permalink: /:categories/:title/
+########################################
+# Projects collection (portfolio items)
+########################################
+collections:
+  projects:                # folder name → “_projects/”
+    output: true           # generate stand-alone HTML pages
+    permalink: /projects/:name/
 
 ############################
 # Defaults (front-matter DRY)
