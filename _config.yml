@@ -6,8 +6,8 @@
 #############
 # Site basics
 #############
-title: "PIOTR SZEFER – CV"         # Shows up in the browser tab
-description: "Backend & AI Engineer | LLM • Research • Data Analysis • Python • AWS • Azure"
+title: "YOUR NAME – CV"         # Shows up in the browser tab
+description: "Backend & AI Engineer | Golang • Python • AWS"
 
 # If you own a custom domain, set it here; otherwise leave empty
 url: "https://YOURDOMAIN.com"   # Must include https://
@@ -27,10 +27,10 @@ plugins: [jekyll-remote-theme]              # required once for remote_theme
 # Author
 ##########
 author:
-  name:  "Piotr Szefer"
-  email: "szefer85@gmail.com"
-  linkedin_username: "www.linkedin.com/in/piotr-szefer"
-  github_username:   "https://github.com/szefer-piotr"
+  name:  "YOUR NAME"
+  email: "you@example.com"
+  linkedin_username: "your-linkedin-handle"
+  github_username:   "your-github-handle"
   # Add more keys (twitter_username, mastodon) as the theme supports
 
 ########################
@@ -82,6 +82,4 @@ exclude:
 ########################################
 # Custom variables (theme-specific keys)
 ########################################
-cv_download: "/Szefer_CV_GACR_2026.pdf"           # used by many CV themes for a button
-
-# yaml<br>theme: jekyll-theme-minimal # or jekyll-theme-cayman, etc.<br>
+cv_download: "/CV.pdf"           # used by many CV themes for a button
