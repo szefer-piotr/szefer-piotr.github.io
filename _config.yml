@@ -6,8 +6,8 @@
 #############
 # Site basics
 #############
-title: "YOUR NAME – CV"         # Shows up in the browser tab
-description: "Backend & AI Engineer | Golang • Python • AWS"
+title: "Piotr Szefer, PhD – CV"         # Shows up in the browser tab
+description: "Data Analyst, Backend & AI Engineer | LLM • Python • R"
 
 # If you own a custom domain, set it here; otherwise leave empty
 url: "https://YOURDOMAIN.com"   # Must include https://
