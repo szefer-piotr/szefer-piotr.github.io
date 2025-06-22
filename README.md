@@ -25,6 +25,7 @@ Mentored students and researchers in advanced data analysis
 Developed tools for automating hypothesis testing, reporting, and visualization
 
 📬 Let's connect
+
 LinkedIn: https://www.linkedin.com/in/piotr-szefer/
 
 Google Scholar: https://scholar.google.com/citations?user=Nt8YKNEAAAAJ&hl=en
